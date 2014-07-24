@@ -8,6 +8,6 @@ public class GAE_EX3Servlet extends HttpServlet {
 	public void doGet(HttpServletRequest req, HttpServletResponse resp)
 			throws IOException {
 		resp.setContentType("text/plain");
-		resp.getWriter().println("Hello, world GAE_EX3Servlet");
+		resp.getWriter().println("Hello, world GAE_EX3Servlet ...");
 	}
 }
